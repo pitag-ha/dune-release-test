@@ -1,10 +1,10 @@
 opam-version: "2.0"
 maintainer: "Thomas Gazagnaire <thomas@gazagnaire.org>"
 authors: ["Daniel Bünzli" "Thomas Gazagnaire" "Nathan Rebours"]
-homepage: "..."
+homepage: "https://github.com/pitag-ha/dune-release-test"
 license: "ISC"
-dev-repo: "..."
-bug-reports: ".../issues"
+dev-repo: "https://github.com/pitag-ha/dune-release-test"
+bug-reports: "https://github.com/pitag-ha/dune-release-test/issues"
 doc: "https://ocamllabs.github.io/dune-release/"
 
 build: [
