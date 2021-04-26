@@ -1,8 +1,5 @@
 opam-version: "2.0"
-maintainer: "Thomas Gazagnaire <thomas@gazagnaire.org>"
-authors: ["Daniel Bünzli" "Thomas Gazagnaire" "Nathan Rebours"]
 homepage: "https://github.com/pitag-ha/dune-release-test"
-license: "ISC"
 dev-repo: "https://github.com/pitag-ha/dune-release-test"
 bug-reports: "https://github.com/pitag-ha/dune-release-test/issues"
 doc: "https://pitag-ha.github.io/dune-release-test/"
@@ -32,17 +29,7 @@ depends: [
   "yojson"
 ]
 
-pin-depends: [
-    [
-    "alcotest.1.3.0"
-    "https://github.com/mirage/alcotest/releases/download/1.3.0/alcotest-mirage-1.3.0.tbz"
-  ]
-]
-
-synopsis: "Release dune packages in opam"
+synopsis: "Test dune-release"
 description: """
-`dune-release` is a tool to streamline the release of Dune packages in
-[opam](https://opam.ocaml.org). It supports projects built
-with [Dune](https://github.com/ocaml/dune) and hosted on
-[GitHub](https://github.com).
+Test dune-release
 """
