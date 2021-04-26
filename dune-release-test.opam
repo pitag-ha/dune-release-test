@@ -5,7 +5,7 @@ homepage: "https://github.com/pitag-ha/dune-release-test"
 license: "ISC"
 dev-repo: "https://github.com/pitag-ha/dune-release-test"
 bug-reports: "https://github.com/pitag-ha/dune-release-test/issues"
-doc: "https://ocamllabs.github.io/dune-release/"
+doc: "https://pitag-ha.github.io/dune-release-test/"
 
 build: [
   ["dune" "subst"] {pinned}
